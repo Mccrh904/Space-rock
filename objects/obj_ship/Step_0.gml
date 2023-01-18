@@ -9,3 +9,5 @@ if(keyboard_check(vk_right)){
 if(keyboard_check(vk_up)){
 	motion_add(image_angle, 0.05);
 }
+
+move_wrap(true,true,0);
