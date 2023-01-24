@@ -9,6 +9,7 @@
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":1,},
     {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},"order":6,},
     {"id":{"name":"spr_asteroid_med","path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},"order":3,},
+    {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},"order":3,},
     {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},"order":0,},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":0,},
     {"id":{"name":"spr_asteroid_small","path":"sprites/spr_asteroid_small/spr_asteroid_small.yy",},"order":4,},
