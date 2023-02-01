@@ -17,3 +17,15 @@ if(keyboard_check_pressed(vk_space)){
 }
 
 move_wrap(true,true,sprite_width/2);
+
+if(keyboard_check_pressed(vk_lshift)){
+	var bomb = instance_destroy(obj_asteroid);
+	audio_play_sound(snd_explode, 1, false);
+	repeat(50){
+		instance_create_layer(x,y,"Instances",obj_debris);		
+	}
+}
+
+if (bomb = 0){ 
+		call_cancel(bomb)
+}

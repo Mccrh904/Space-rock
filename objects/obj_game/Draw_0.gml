@@ -2,6 +2,7 @@ switch(room){
 	case rm_game:
 	draw_text(20, 20, "SCORE: "+string(score));
 	draw_text(20, 40, "LIVES: "+string(lives));
+	draw_text(20, 60, "BOMB: "+string(bomb));
 	break;
 	
 	case rm_start:
@@ -18,6 +19,7 @@ switch(room){
 			UP: move
 			LEFT/RIGHT: change direction
 			SPACE: shoot
+			LSHIFT: BOMB
 			
 			>> PRESS ENTER TO START <<"
 		);
@@ -47,8 +49,7 @@ switch(room){
 		);
 		draw_text(
 			room_width/2, 250,
-			"FINAL SCORE: "+string(score)
-			
+			@"FINAL SCORE : " + string(score)
 		);
 		draw_text(
 			room_width/2, 300,
